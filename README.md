@@ -24,15 +24,15 @@ Sobald eine CSV-Datei in ein definiertes S3-Bucket hochgeladen wird, konvertiert
 ## Ausführung:
 
 ### Schritt 1: 
-bash
+
 chmod +x init.sh
 
 ### Schritt 2: 
-bash
+
 ./init.sh
 
 ### Cleanup: 
-bash
+
 aws lambda delete-function --function-name CsvToJsonLambda
 
 aws s3 rm s3://my-source-csv-bucket-m346-aacb --recursive
