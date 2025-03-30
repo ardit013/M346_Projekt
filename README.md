@@ -1,5 +1,4 @@
 # M346_Projekt
-# M346_Projekt
 
 ## Csv2Json AWS Lambda Service
 
